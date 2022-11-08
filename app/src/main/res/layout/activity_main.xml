@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:textSize="17sp"
+                android:textColor="#883AC5"
+                android:text="Actividad 7 - Áreas, Perimetros y Volumenes" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardAreas"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                app:cardBackgroundColor="#4472C4"
+                app:cardCornerRadius="30dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Áreas y Perimetros"
+                        android:textColor="#FFD966"
+                        android:layout_marginTop="5dp"
+                        android:textSize="20sp"
+                        />
+
+                    <ImageView
+                        android:layout_width="290dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/figuras"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/idCardVolumenes"
+                android:layout_marginLeft="20dp"
+                app:cardBackgroundColor="#002097"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginBottom="40dp"
+                app:cardCornerRadius="30dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Volumenes"
+                        android:textColor="#FFD966"
+                        android:layout_marginTop="5dp"
+                        android:textSize="20sp"
+                        />
+
+                    <ImageView
+                        android:layout_width="270dp"
+                        android:layout_height="145dp"
+                        android:src="@drawable/volumenes"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
