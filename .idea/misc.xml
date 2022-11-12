@@ -4,6 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.154" />
+        <entry key="app/src/main/res/layout-land/activity_cilindro.xml" value="0.1966490299823633" />
+        <entry key="app/src/main/res/layout-land/activity_circulo.xml" value="0.1966490299823633" />
+        <entry key="app/src/main/res/layout-land/activity_cono.xml" value="0.1966490299823633" />
+        <entry key="app/src/main/res/layout-land/activity_cubo.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-land/activity_esfera.xml" value="0.1966490299823633" />
+        <entry key="app/src/main/res/layout-land/activity_hexagono.xml" value="0.1966490299823633" />
+        <entry key="app/src/main/res/layout-land/activity_paralelepipedo.xml" value="0.1966490299823633" />
+        <entry key="app/src/main/res/layout-land/activity_rectangulo.xml" value="0.1966490299823633" />
+        <entry key="app/src/main/res/layout-land/activity_rombo.xml" value="0.18367156982421876" />
+        <entry key="app/src/main/res/layout-land/activity_triangulo.xml" value="0.67" />
         <entry key="app/src/main/res/layout/activity_areas.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/activity_areas2.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/activity_cilindro.xml" value="0.14175724637681159" />
@@ -17,6 +27,7 @@
         <entry key="app/src/main/res/layout/activity_rectangulo.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_rombo.xml" value="0.14175724637681159" />
         <entry key="app/src/main/res/layout/activity_triangulo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_triangulo2.xml" value="0.2" />
         <entry key="app/src/main/res/layout/activity_volumenes.xml" value="0.1" />
         <entry key="app/src/main/res/layout/bordo.xml" value="0.10885416666666667" />
         <entry key="app/src/main/res/layout/item_list.xml" value="0.31242759726450575" />
